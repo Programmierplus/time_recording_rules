@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: Programmierplus/time_recording_rules
+  branch: main
+
+media_folder: "images"
+
+collections:
+  - name: "rules"
+    label: "Prompt Rules"
+    folder: "rules"
+    create: true
+    format: "yaml"
+    fields:
+      - { label: "Rule ID", name: "id", widget: "string" }
+      - { label: "Priority", name: "priority", widget: "number" }
+      - { label: "Active", name: "active", widget: "boolean" }
+      - { label: "Prompt Block", name: "prompt_block", widget: "text" }
