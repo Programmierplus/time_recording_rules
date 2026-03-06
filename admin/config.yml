@@ -1,7 +1,5 @@
 backend:
-  name: test-repo
-  repo: Programmierplus/time_recording_rules
-  branch: main
+  name: test-repo 
 
 media_folder: "images"
 
